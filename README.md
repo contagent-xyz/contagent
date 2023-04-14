@@ -1,6 +1,6 @@
-# ReAgent
+# Contagent
 
-ReAgent is a Java library for modelling agents in a simulation.
+Contagent (*contagion agents*) is a Java library for modelling agents in a simulation.
 
 It is built using gradle and the AWS Corretto JDK, version 17.
 
