@@ -47,7 +47,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/reagent-abm/reagent")
+            url = uri("https://maven.pkg.github.com/0xr0bert/contagent")
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")
@@ -59,7 +59,7 @@ publishing {
             pom {
                 name = "Contagent"
                 description = "Contagent is a Java library for building agent-based models."
-                url = "https://github.com/reagent-abm/reagent"
+                url = "https://github.com/0xr0bert/contagent"
                 licenses {
                     license {
                         name = "The BSD 3-Clause License"
@@ -74,9 +74,9 @@ publishing {
                     }
                 }
                 scm {
-                    connection = "scm:git:git://github.com/reagent-abm/reagent.git"
-                    developerConnection = "scm:git:ssh://github.com/reagent-abm/reagent.git"
-                    url = "https://github.com/reagent-abm/reagent"
+                    connection = "scm:git:git://github.com/0xr0bert/contagent.git"
+                    developerConnection = "scm:git:ssh://github.com/0xr0bert/contagent.git"
+                    url = "https://github.com/0xr0bert/contagent"
                 }
             }
             from components.java
