@@ -1,5 +1,5 @@
 /**
- * This package contains the core classes of the Reagent library.
+ * This package contains the core classes of the Contagent library.
  *
  * @author Robert Greener
  */

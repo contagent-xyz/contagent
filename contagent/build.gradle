@@ -57,8 +57,8 @@ publishing {
     publications {
         mavenJava(MavenPublication) {
             pom {
-                name = "ReAgent"
-                description = "ReAgent is a Java library for building agent-based models."
+                name = "Contagent"
+                description = "Contagent is a Java library for building agent-based models."
                 url = "https://github.com/reagent-abm/reagent"
                 licenses {
                     license {
@@ -85,4 +85,4 @@ publishing {
 }
 
 version = System.getenv("VERSION") ?: getProperty('version')
-group = 'dev.r0bert'
+group = 'xyz.contagent'
