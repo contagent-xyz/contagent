@@ -11,7 +11,7 @@ import java.util.UUID;
 public interface BehaviourDecisionAgent extends Agent {
     Behaviour chooseBehaviour();
 
-    default void chooseAndInformChosenBehaviour(@NotNull SimulationManager simulationManager, @NotNull UUID destination) {
+    default void chooseAndInformChosenBehaviour(@NotNull final SimulationManager simulationManager, @NotNull final UUID destination) {
         var behaviour = chooseBehaviour();
         var message = new ChosenBehaviourMessage(null, this, destination, behaviour);
         simulationManager.sendMessageNow(message);
